@@ -1,0 +1,15 @@
+{
+  "name": "node-docker-simple",
+  "version": "1.0.0",
+  "description": "App mínima en Node con 2 dependencias (express y dayjs) para Docker",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
