@@ -2,7 +2,7 @@ const express = require('express');
 const dayjs = require('dayjs');
 
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3000;
 
 // Middleware simple
 app.use(express.json());
@@ -10,7 +10,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.json({
     ok: true,
-    message: 'Hola desde Node + Docker',
+    message: 'hola aqui vicente desde vsc',
     now: dayjs().format('YYYY-MM-DD HH:mm:ss')
   });
 });
